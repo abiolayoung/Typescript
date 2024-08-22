@@ -1,0 +1,22 @@
+[✔] mitigation strategy - Add if check to function validate and sanitize user input
+    typescript is a tool that help developer write better and less error prone code
+
+                        **WHAT TYPESCRIPT ADDS**
+[✔] typescript adds types to our jscode in order to be way more explicit about how our code works
+[✔] we can use next-gen features witihin our ts file(compiled down for old browser) 
+[✔] typescript also adds non-javascript features like interfaces or generics 
+    (these are features that gives us clear errors and helps us await more errors)
+[✔] it also gives us meta programming features like decorator
+[✔] it is also highly configurable (rich configuration options)
+[✔] it provides modern tooling that helps in non typescript projects
+
+         **WORKING WITH TYPES (Core Syntax & Features)***
+*using types - core TYPES
+[✔] number type e.g (1, 5.3, -10) - (positive, decimal, and negative number)
+[✔] string type e.g ('Hi', "Hi", `Hi`) - (all text value, string quoting are accepted with typescript)
+[✔] Boolean type e.g (true, false) -(just these 2, no "truthy" or "falsy" values)
+
+* typescript's type system only helps us during development (i.e before the code gets compiled)
+* only typescript understand a column after a variable, js doesnt understand that
+* an error will always be shown if you try to assign a value other than the declared data type
+
