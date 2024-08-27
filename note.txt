@@ -15,8 +15,19 @@
 [✔] number type e.g (1, 5.3, -10) - (positive, decimal, and negative number)
 [✔] string type e.g ('Hi', "Hi", `Hi`) - (all text value, string quoting are accepted with typescript)
 [✔] Boolean type e.g (true, false) -(just these 2, no "truthy" or "falsy" values)
+[✔] Object type- any javascript object, more specific  types (type of object) are possible
+[✔] Arrays Type - any data can be stored in an array [1, 2, 3]
+[✔] Tuple Type - javascript does not have tuple, [1, 2] -this is a fixed length and type array
+[✔] Enum Type - javascript doesnt understand the enum type, enum{NEW, OLD}- added by typescript
+   this automatically enumerated global constant identifiers
+    
 
 * typescript's type system only helps us during development (i.e before the code gets compiled)
 * only typescript understand a column after a variable, js doesnt understand that
 * an error will always be shown if you try to assign a value other than the declared data type
+
+* in declaringa typescript object, we can eiher declare the varible as object my writing object
+  or by declaring a curly braces in replacement of the object text
+* typescript describe an array of string data as string[], and any[] - to accept any form of data in the array
+
 
