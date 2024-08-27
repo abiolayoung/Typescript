@@ -20,6 +20,8 @@
 [✔] Tuple Type - javascript does not have tuple, [1, 2] -this is a fixed length and type array
 [✔] Enum Type - javascript doesnt understand the enum type, enum{NEW, OLD}- added by typescript
    this automatically enumerated global constant identifiers
+[✔] Union Type - this is the combinator of 2 data types using the OR operator when declaring the type
+[✔] Literal Types- this type is especially used when used in conjunction with union types
     
 
 * typescript's type system only helps us during development (i.e before the code gets compiled)
@@ -30,4 +32,8 @@
   or by declaring a curly braces in replacement of the object text
 * typescript describe an array of string data as string[], and any[] - to accept any form of data in the array
 
+*type alliases - this is used to repeat a union type- we declare with any name that js or ts doesnt recognize
+this is when you declare a union type in a variable using the type keyword then assign the varible to the data type declaration
+it doesnt just accept number and string e.g (string | number) but also accept any declaration with the value using the OR operator
+it can be used to create our own custom type
 
