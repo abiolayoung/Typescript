@@ -22,7 +22,11 @@
    this automatically enumerated global constant identifiers
 [✔] Union Type - this is the combinator of 2 data types using the OR operator when declaring the type
 [✔] Literal Types- this type is especially used when used in conjunction with union types
-    
+[✔] Unknown type - the type unkown is used when we dont know what the user will parse in
+    the unknown type is not assignable to any other type
+[✔] the never type- never is a type that return void, it never returns anything
+
+
 
 * typescript's type system only helps us during development (i.e before the code gets compiled)
 * only typescript understand a column after a variable, js doesnt understand that

@@ -51,19 +51,19 @@
 // const read_only = 1;
 // const author = 2;
 
-enum Role { ADMIN, READ_ONLY, AUTHOR };
+// enum Role { ADMIN, READ_ONLY, AUTHOR };
 
-const person = {
-    name : 'abiola',
-    age: 24,
-    hobbies: ['sport', 'cooking', 'dancing', 'eating'],
-    role: Role.READ_ONLY
-};
+// const person = {
+//     name : 'abiola',
+//     age: 24,
+//     hobbies: ['sport', 'cooking', 'dancing', 'eating'],
+//     role: Role.READ_ONLY
+// };
 
-if (person.role === Role.ADMIN){
-    console.log('is Admin....')
-} else if(person.role === Role.AUTHOR){
-    console.log('is author')
-} else {
-    console.log('is read_only.....')
-}
+// if (person.role === Role.ADMIN){
+//     console.log('is Admin....')
+// } else if(person.role === Role.AUTHOR){
+//     console.log('is author')
+// } else {
+//     console.log('is read_only.....')
+// }
