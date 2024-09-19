@@ -41,3 +41,22 @@ this is when you declare a union type in a variable using the type keyword then 
 it doesnt just accept number and string e.g (string | number) but also accept any declaration with the value using the OR operator
 it can be used to create our own custom type
 
+
+WATCH MODE - this automatically compile our updates to javascript without having to run tsc app.ts
+ you run (tsc app.ts --watch) to enter watch mode
+
+ * if we want to make dynamic changes to our several file on typescript, we need to configure tsc --init
+ which tells typescript we are managing a particular project
+
+ in the ts.config.json file, we can use the exclude to exclude the files we dont want to compiled, using the: 
+ "exclude": [
+    "*.dev.ts",
+    "node_modules"
+  ]
+
+we also have the include, which does the opposite of exlcude
+
+ "include": [
+    "*.dev.ts",
+    "node_modules"
+  ] // used to include any file we want to compile

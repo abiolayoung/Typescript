@@ -21,8 +21,8 @@
 
 // Never type
 
-function generateError(message: string, code: number) {
-    throw {message: message, errorCode: code};
-}
-
-generateError('an error occured', 500)
+// function generateError(message: string, code: number): never {
+//     throw {message: message, errorCode: code};
+// }
+// let result = generateError('an error occured', 500)
+// console.log(result) // this function never produces a value, it trows a never data type
